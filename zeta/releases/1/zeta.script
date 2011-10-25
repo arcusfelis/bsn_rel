@@ -1,4 +1,4 @@
-%% script generated at {2011,10,11} {23,33,22}
+%% script generated at {2011,10,25} {22,6,22}
 {script,
     {"zeta","1"},
     [{preLoaded,
@@ -36,7 +36,7 @@
           regexp,sets,shell,shell_default,slave,sofs,string,supervisor,
           supervisor_bridge,sys,timer,unicode,win32reg,zip]},
      {path,["$ROOT/lib/bsn-1.0/ebin"]},
-     {primLoad,[bsn]},
+     {primLoad,[bsn,bsn_ext,bsn_int,bsn_measure]},
      {path,["$ROOT/lib/sasl-2.1.9.4/ebin"]},
      {primLoad,
          [alarm_handler,erlsrv,format_lib_supp,misc_supp,overload,rb,
@@ -342,7 +342,7 @@
                   [{description,[]},
                    {vsn,"1.0"},
                    {id,[]},
-                   {modules,[bsn]},
+                   {modules,[bsn,bsn_ext,bsn_int,bsn_measure]},
                    {registered,[]},
                    {applications,[kernel,stdlib]},
                    {included_applications,[]},

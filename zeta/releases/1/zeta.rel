@@ -1,4 +1,4 @@
-%% rel generated at {2011,10,11} {23,33,22}
+%% rel generated at {2011,10,25} {22,6,22}
 {release,{"zeta","1"},
          {erts,"5.8.4"},
          [{kernel,"2.14.4"},
